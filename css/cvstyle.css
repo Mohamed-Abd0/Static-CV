@@ -1,0 +1,94 @@
+/* stare  my fram work  */
+*{box-sizing: border-box;}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    color: #757575;
+}
+.white{background-color: #fff;}
+.gray{background-color: #f1f1f1;}
+/* end my fram work  */
+
+header, .footer
+{
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+}
+header{line-height: 2em; font-weight: bold; font-size: 40px;}
+.container
+{
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+.text{width: 90%; margin: auto;}
+
+hr
+{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px auto;
+    width: 90%;
+    align: center;
+}
+
+i
+{
+    margin-right: 20px;
+    color: #009688;
+    font-size: 20px;
+}
+h2{font-size: 30px; margin: 0px 0 40px ;padding: 30px 0; font-weight: 400;}
+h2 i
+{
+    margin-right: 20px;
+    color: #009688;
+    font-size: 30px;
+} 
+h5{font-size: 18px; font-weight: bold; margin: 10px 0}
+h6{font-size: 16px; font-weight: 400px; margin: 10px 0;color: #009688;}
+h6 span{background-color:  #009688; color: #fff; padding: 5px; border-radius: 7px;}
+p{font-size: 15px; color: #000;padding: 20px 0; line-height: 1.5em; }
+/* start of the left bar  */
+.container .left_bar
+{
+    float: left;
+    width: 34%;
+    margin-right:1%;
+}
+.container .left_bar .personal_info div{margin: 15px 0; line-height: 1.5em;}
+.container .left_bar .cont 
+{
+    background-color: #f1f1f1; 
+    height: 20px; 
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.container .left_bar .cont .progress
+{
+    background-color: #009688 ;
+    height: 20px; 
+    border-radius: 16px;
+    text-align: right;
+    color: #fff;
+}
+
+/* end of the left bar  */
+.container .right_bar
+{
+    float: left;
+    width: 64%;
+    margin-left: 1%;
+}
+.work-experience{margin: 20px 0px}
+.left_bar p{margin-bottom: 0;}
+img{width: 100%; margin-top: 20px;}
+
+.footer p ,i
+{
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+}
