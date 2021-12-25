@@ -9,7 +9,7 @@ this repo is application on  static CV
 
 ## live-site
 
-* 
+*  https://mohamed-abd0.github.io/static-cv/
 
 ## Creator
 
